@@ -17,6 +17,7 @@ Web response ini digunakan untuk membuat custome dari response
 public class WebResponse <T> {
     private boolean success;
     private String message;
+    private String error;
     private T data;
     private PaggingResponse pagging;
 }
