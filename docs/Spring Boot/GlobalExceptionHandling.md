@@ -50,7 +50,7 @@ public class UserService {
 
     @Transactional
     public void register(RegisterUserRequest request) {
-        // ini akan ditangkap ConstraintViolationException
+        // ini digunakan ConstraintViolationException
         validataionService.validate(request);
 
         // ini akan ditangap ResponseStatusException
